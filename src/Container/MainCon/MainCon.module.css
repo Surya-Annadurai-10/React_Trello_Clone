@@ -1,0 +1,10 @@
+.main_con{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 1rem;
+    width: 100%;
+    min-height:93vh ;
+    background-color: #5D5CED;
+    padding: 2rem;
+}

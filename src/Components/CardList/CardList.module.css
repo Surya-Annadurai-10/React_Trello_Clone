@@ -1,0 +1,64 @@
+.cardList_con{
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #E2E8F0;
+    gap: 1rem;
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+.cardList_head{
+    width: 100%;
+   /* background-color: red; */
+    /* padding: 1rem; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.add{
+    width: 90%;
+    height: 30px;
+    border-radius: 5px;
+    color: rgb(103, 103, 103);
+    font-size: 1.2rem;
+    border: none;
+    transition: 0.2s ease-in;
+}
+
+.add:hover{
+    background-color: #d0d4d4;
+
+}
+
+.textBox{
+    width: 90%;
+    /* background-color: crimson; */
+}
+
+.textBox textarea{
+    width: 70%;
+    min-height: 50px;
+    padding:0.3rem;
+}
+
+.addBtn,
+.cancelBtn{
+   width: 70px;
+   height: 20px;
+   border: none;
+   border-radius: 2px;
+}
+
+.addBtn{
+    background-color: #5D5CED;
+    color: #fff;
+    margin-right: 0.2rem;
+}
+.cancelBtn{
+    background-color: #000;
+    color: #fff;
+}

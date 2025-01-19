@@ -1,0 +1,61 @@
+.card_con{
+    width: 90%;
+    min-height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: white;
+    position: relative;
+    padding: 0.5rem;
+    /* flex-basis: 70% 20%; */
+}
+
+.para{
+    width: 80%;
+    /* background-color: crimson; */
+}
+
+.icons{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    /* position: absolute;
+    right: 0;
+    z-index: 10; */
+    /* background-color: red; */
+    
+}
+
+.delete{
+    font-size: 1.3rem;
+}
+
+.textBox{
+    width: 90%;
+}
+
+.addBtn,
+.cancelBtn{
+   width: 70px;
+   height: 20px;
+   border: none;
+   border-radius: 2px;
+}
+
+.addBtn{
+    background-color: #5D5CED;
+    color: #fff;
+    margin-right: 0.2rem;
+}
+.cancelBtn{
+    background-color: #000;
+    color: #fff;
+}
+
+.textBox textarea{
+    width: 70%;
+    min-height: 50px;
+    padding:0.3rem;
+}
